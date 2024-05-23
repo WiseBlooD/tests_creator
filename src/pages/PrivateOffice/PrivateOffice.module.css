@@ -1,0 +1,11 @@
+.testBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mainBlock {
+    margin: 5% auto;
+    width: 750px;
+    height: 100%;
+}
