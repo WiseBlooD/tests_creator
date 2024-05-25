@@ -1,11 +1,10 @@
 import React from 'react';
-import Popupbar from "../../components/popupbar/Popupbar";
+//import Popupbar from "../../components/popupbar/Popupbar";
 
 const Auth = () => {
     return (
         <div>
-            <Popupbar children={'Регистрация'}/>
-
+            Auth
         </div>
     );
 };

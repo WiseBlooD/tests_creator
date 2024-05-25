@@ -1,9 +1,10 @@
 import React from 'react';
+import ButtonForTests from "../../components/buttonForTests/ButtonForTests";
 
 const Main = () => {
     return (
         <div>
-            <p>Main</p>
+            <ButtonForTests button_text="test?"/>
         </div>
     );
 };

@@ -1,5 +1,4 @@
 import React from 'react';
-//import TestWithOptions from "../../components/TestWithOptions/TestWithOptions";
 import TestWithOptions from "../../components/testWithOptions/TestWithOptions.jsx";
 import ButtonForTest from "../../components/buttonForTests/ButtonForTests.jsx";
 

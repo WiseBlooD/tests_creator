@@ -1,14 +1,15 @@
 const express = require('express');
-const bodyParser = require('body-parser');
-const { connectToDatabase, insertDocument, findDocuments, deleteDocument } = require('./db');
-
+//const bodyParser = require('body-parser');
+//const { connectToDatabase, insertDocument, findDocuments, deleteDocument } = require('./db');
+import bodyParser from "body-parser";
+import {connectToDatabase, insertDocument, findDocuments, deleteDocument} from './db'
 const app = express();
-const port = 3000;
+const PORT = 3000;
 
-// Middleware для обработки JSON
+
 app.use(bodyParser.json());
 
-// Обработчики маршрутов
+
 app.post('/api/documents', async (req, res) => {
     try {
         const { collectionName, document } = req.body;
@@ -45,6 +46,7 @@ app.delete('/api/documents/:collectionName', async (req, res) => {
 });
 
 // Старт сервера
-app.listen(port, () => {
-    console.log(`Сервер запущен на порту ${port}`);
+app.listen(PORT, () => {
+    console.log(`Сервер запущен на порту ${PORT}`);
 });
+//const mongoose = require('mongoose')

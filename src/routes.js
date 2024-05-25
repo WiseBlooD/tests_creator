@@ -9,7 +9,6 @@ import PrivateOffice from "./pages/PrivateOffice/PrivateOffice.jsx";
 import Test from "./pages/Test/Test.jsx";
 import Main from "./pages/Main/Main.jsx";
 import Auth from "./pages/Auth/Auth";
-
 export const authRoutes = [
     {
         path: TEST_BUILDER_ROUTE,
@@ -31,6 +30,7 @@ export const authRoutes = [
         path: COMPLETED_TESTS,
         Component: Test
     },
+
 
 ]
 
